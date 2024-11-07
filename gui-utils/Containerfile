@@ -1,0 +1,8 @@
+FROM baseimage
+
+RUN dnf install -y \
+    foot \
+    papirus-icon-theme \
+    wl-clipboard \
+    && \
+    dnf clean all
