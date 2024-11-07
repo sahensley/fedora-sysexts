@@ -1,9 +1,7 @@
 FROM baseimage
 
 RUN dnf install -y \
-    firewall-config \
     foot \
-    gnome-tweaks \
     papirus-icon-theme \
     wl-clipboard \
     && \

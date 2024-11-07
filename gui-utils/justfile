@@ -1,8 +1,6 @@
-name := "gnome-gui"
+name := "gui-utils"
 packages := "
-firewall-config
 foot
-gnome-tweaks
 papirus-icon-theme
 wl-clipboard
 "
