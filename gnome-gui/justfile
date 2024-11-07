@@ -1,0 +1,17 @@
+name := "gnome-gui"
+packages := "
+firewall-config
+foot
+gnome-tweaks
+papirus-icon-theme
+wl-clipboard
+"
+base_images := "
+quay.io/fedora/fedora-coreos:next
+quay.io/fedora-ostree-desktops/kinoite:41
+quay.io/fedora-ostree-desktops/silverblue:41
+"
+
+import '../sysext.just'
+
+all: default
