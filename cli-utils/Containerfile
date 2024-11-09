@@ -1,0 +1,15 @@
+FROM baseimage
+
+RUN dnf install -y \
+    btop \
+    distrobox \
+    fd-find \
+    fzf \
+    just \
+    ripgrep \
+    strace \
+    tmux \
+    vim-X11 \
+    zsh \
+    && \
+    dnf clean all
