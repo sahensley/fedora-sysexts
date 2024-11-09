@@ -6,6 +6,7 @@ fzf
 just
 neovim
 ripgrep
+strace
 tmux
 vim-X11
 wl-clipboard
